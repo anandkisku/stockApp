@@ -1,0 +1,87 @@
+
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.searchbar{
+  width: 30vw;
+  height: 5vh;
+  font-size: larger;
+  position: relative;
+}
+.searchbtn{
+  margin-left: 1vw;
+  height: 6vh;
+  width: 10vw;
+  border-radius: 3px;
+  font-size: larger;
+  cursor: pointer;
+}
+.currentprice{
+top: -10px;
+}
+.maindiv{
+  position:relative;
+  top: 10%;
+}
+#inputdiv{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width:41.52vw;
+  background-color: rgb(243, 243, 243);
+  margin-top: 5vh;
+  border: 3px solid rgb(199, 199, 198);;
+}
+.stocklist{
+  border-bottom: 3px solid rgb(236, 236, 236);
+  
+  background-color: rgb(248, 248, 248);
+  height: 10vh;
+  width: 41.66vw;
+  color: black;
+  font-size: 20px;
+}
+.stocklist:hover{
+  background-color: rgba(231, 230, 227, 0);
+}
+#addbtn{
+  background-color: rgba(223, 226, 226, 0.568);
+  width: 4vw;
+  height: fit-content;
+  padding: 6px;
+  border-radius: 5px;
+  position: relative;
+  right: 12vw;
+  top:20px;
+  text-align: center;
+  z-index: 1;
+}
+#stocklist2{
+  display: inline-flex;
+}
+#stock_name{
+  margin: 15px;
+  width: 28vw;
+}
+#pricing{
+  position: relative;
+  
+}
+#stock_current_price{
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 25px;
+}
+
